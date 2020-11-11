@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#8BFF6F00"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/start_game"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/play_icon"
+        android:backgroundTint="#99FF6F00"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/rank_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rank_list_icon"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#99FF6F00"
+        android:layout_alignParentEnd="true"/>
+
+
+    <Button
+        android:id="@+id/intro_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/intro_game"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#99FF6F00"
+        android:layout_alignParentLeft="true"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"/>
+</RelativeLayout>

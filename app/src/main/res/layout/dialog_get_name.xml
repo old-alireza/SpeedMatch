@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_get_name"
+        android:textAlignment="center"
+        android:background="@drawable/frame_1"
+        android:textColorHint="@android:color/white"
+        android:lines="1"
+        android:maxLength="13"
+        android:inputType="textPersonName"
+        android:layout_margin="@dimen/small_margin"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/start_game_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/player_name"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
